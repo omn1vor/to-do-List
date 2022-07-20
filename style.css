@@ -14,6 +14,8 @@ h1 {
     margin: 0 auto;
     padding: 10px;
     background-color: oldlace;
+    border-radius: 5px;
+    box-shadow: lightgray 1px 1px 1px;
 }
 
 .new-task {
