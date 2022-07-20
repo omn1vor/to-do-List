@@ -1,2 +1,2 @@
-# to-do-List
-Basic to-do-list with local data store.
+# To-Do List
+Basic to-do list with local data store.
