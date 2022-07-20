@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #55493E;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: oldlace;
+}
+
+.new-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 10px 5px;
+    border-bottom: #55493E 1px solid;
+    align-items: center;
+}
+
+#input-task {
+    flex: 1;
+    border: lightgray 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    margin-block-end: 0; /* to override Chrome default fo <li> */
+    padding-inline-start: 0; /* to override Chrome default fo <li> */
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: transparent 1px solid;
+}
+
+li:hover {
+    background-color: #fbecd0;
+}
+
+.task {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+button {
+    flex: 0 0 25px;
+    min-height: 25px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+#add-task-button {
+    background-color: #bff58a;
+}
+
+.delete-btn {
+    background-color: #f5d18a;
+}
+
+.closed-task {
+    text-decoration: line-through;
+    color: dimgray;
+}
